@@ -10,7 +10,7 @@ def line(array)
     list.push("#{i}. #{array[i - 1]}")
     i += 1 
   end 
-  list.push("#{array.length}. #{array[last]}")
+  list.push("#{array.length}. #{array[-1]}")
   needed_string = list.join
   puts "The line is currently #{final}"
 end
