@@ -17,5 +17,6 @@ end
 end 
 
 def take_a_number(array, item)
-  
+  array.push(item)
+  puts "#{array.length + 1} #{item}"
 end 
