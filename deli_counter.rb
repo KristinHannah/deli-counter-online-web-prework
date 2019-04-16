@@ -12,6 +12,6 @@ def line(array)
   end 
   list.push("#{array.length}. #{array[-1]}")
   needed_string = list.join
-  puts "The line is currently #{final}"
+  puts "The line is currently #{needed_string}"
 end
 end 
