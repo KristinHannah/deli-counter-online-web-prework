@@ -10,6 +10,6 @@ def line(array)
     list.push("#{i}. #{array[i - 1]}")
     i += 1 
   end 
-  puts "The line is currently #{list}"
+  puts "The line is currently"
 end
 end 
