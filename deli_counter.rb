@@ -7,7 +7,7 @@ def line(array)
     list =[]
     i = 1 
     while i < array.length + 1 do 
-    list.push("#{i}. #{[array[i - 1]}")
+    list.push("#{i}. #{array[i - 1]}")
   end 
   puts "The line is currently #{list}"
 end
