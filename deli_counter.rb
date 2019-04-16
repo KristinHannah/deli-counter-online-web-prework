@@ -20,3 +20,10 @@ def take_a_number(array, item)
   array.push(item)
   puts "Welcome, #{item}. You are number #{array.length} in line."
 end 
+
+def now_serving(array)
+  if array.length == 0 
+    puts "The line is empty."
+  else
+    array.unshift()
+end 
