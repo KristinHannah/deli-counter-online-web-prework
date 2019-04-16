@@ -7,7 +7,7 @@ def line(array)
     list =[]
     i = 1 
     while i < array.length + 1 do 
-    list.push("#{i}. #{array[i - 1]}")
+    list.push("#{i}. #{array[i - 1]} ")
     i += 1 
   end 
   needed_string = list.join
