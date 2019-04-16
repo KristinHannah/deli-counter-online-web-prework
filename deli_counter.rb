@@ -15,3 +15,7 @@ def line(array)
   puts "The line is currently: #{needed_string}"
 end
 end 
+
+def take_a_number(array, item)
+  
+end 
