@@ -12,9 +12,3 @@ def line(array)
   puts "The line is currently list"
 end
 end 
-
-i = 1  
-while i < array.length + 1 do 
-  assignments.push("Hello, #{array[i - 1]}! You'll be assigned to room #{i}!")
-  i += 1 
-end
