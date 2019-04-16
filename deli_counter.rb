@@ -9,6 +9,7 @@ def line(array)
     while i < array.length + 1 do 
     list.push(#{i}. #{[array[i - 1]})
   end 
+  puts "The line is currently list"
 end
 end 
 
