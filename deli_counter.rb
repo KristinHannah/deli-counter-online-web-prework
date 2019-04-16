@@ -27,3 +27,4 @@ def now_serving(array)
   else
     array.unshift()
 end 
+end 
