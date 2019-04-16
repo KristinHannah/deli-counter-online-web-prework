@@ -7,7 +7,7 @@ def line(array)
     list =[]
     i = 1 
     while i < array.length do 
-    list.push("#{i}. #{array[i - 1]}")
+    list.push("#{i}. #{array[i - 1]} ")
     i += 1 
   end 
   list.push("#{array.length}. #{array[-1]}")
